@@ -1,0 +1,16 @@
+<% include head %>
+<form class="inscription" action="/login" method="post" name="inscription" background-color: #ffff>
+    <div class="form-group" style="margin-top: 15px;" >
+        <label for="email">Adresse mail*</label>
+        <input class="form-control" type="email" name="user_mail"  autofocus id="email" placeholder="E-mail* (ex: example@mail.com)" />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <input type="password" class="form-control" id="password" placeholder="Mot de passe"/>
+    </div>
+
+    <input type="submit" value="Connexion">
+</form>
+
+<% include foot %>
